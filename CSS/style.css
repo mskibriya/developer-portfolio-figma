@@ -1,0 +1,68 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* All Common CSS End */
+
+/* Header Part Start */
+#headerPart{
+    padding: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logoWithMainu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu ul {
+    display: flex;
+    column-gap: 70px;
+}
+.manu ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo{
+    width: 50%;
+}
+.manu{
+    width: 30%;
+}
+.button{
+    width: 20%;
+}
+.button a{
+    padding: 25px 35px;
+    background: firebrick;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bennerPart{
+    padding-top: 300px;
+    padding-bottom: 185;
+    background: url(../Images/background-image.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
